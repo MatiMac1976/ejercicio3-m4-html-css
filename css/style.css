@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: block;
+    background-image: url('../assets/M4\ -\ Desafío3_img-header.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 55vw;
+}
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 44pt;
+    font-weight: 700;
+    color: #0a2ff1;
+    padding-top: 60vw;
+    padding-left: 150px;
+}
+
+.container {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.main {
+    display: inline;
+    flex-direction: column;
+    text-align: left;
+    width: 80%;
+    padding: 10px;
+    margin-top: 14vw;
+}
+
+.main p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 19pt;
+    color: #000000;
+    height: 110px;
+    width: 130vh;
+    padding-bottom: 150px;
+}
+
+.main p span {
+    font-weight: 700;
+    color: #0a2ff1;
+}
+
+.section {
+    text-align: left;
+    width: 80%;
+}
+
+#parrafo {
+    display: block;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18pt;
+    color: #000000;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+img {
+    display: block;
+    justify-content: end;
+    width: 80%;
+    margin: auto;
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20pt;
+    color: white;
+    text-decoration: none;
+    border: none;
+    width: 300px;
+    height: 50px;
+    margin-bottom: 10px;
+    background-color: #0a2ff1;
+}
+
+footer {
+    background-color: #15163d;
+    height: 2vw;
+    margin-top: 25px;
+}
